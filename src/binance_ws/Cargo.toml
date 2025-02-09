@@ -1,0 +1,28 @@
+[package]
+name = "exchange-collection-binance-ws"
+version = "1.2.2"
+edition = "2021"
+
+[dependencies.reqwest]
+workspace = true
+
+[dependencies.serde]
+workspace = true
+
+[dependencies.serde_json]
+workspace = true
+
+[dependencies.serde_yaml]
+workspace = true
+
+[dependencies.tokio]
+workspace = true
+
+[dependencies.tokio-tungstenite]
+workspace = true
+
+[dependencies.typed-websocket]
+workspace = true
+
+[dependencies.url]
+workspace = true
