@@ -1,0 +1,19 @@
+[workspace]
+members = []
+resolver = "2"
+
+[workspace.dependencies]
+reqwest = "0.12.12"
+serde_json = "1.0.138"
+serde_yaml = "0.9.33"
+tokio-tungstenite = "0.24.0"
+typed-websocket = "0.1.0"
+url = "2.5.4"
+
+[workspace.dependencies.serde]
+version = "1.0.217"
+features = ["derive"]
+
+[workspace.dependencies.tokio]
+version = "1.43.0"
+features = ["full", "tracing"]
